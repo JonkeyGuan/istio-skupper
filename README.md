@@ -90,7 +90,7 @@ data:
   service-sync: 'true'
 ```
 
-调整skupper部署
+调整skupper Deployment
 
 skupper-router
 
@@ -134,8 +134,6 @@ skupper expose deployment/hello-world-backend --port 8080
 ```
 
 ## 暴漏前端页面
-
-访问前端页面
 
 ```
 apiVersion: networking.istio.io/v1beta1
